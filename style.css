@@ -1,11 +1,72 @@
 body{
-    background-color: rgb(5, 5, 102);
+    background-color: rgb(36, 35, 41);
 }
 
 .pp {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    border: solid 10px rgb(18, 18, 81);
+    border: solid 10px rgba(15, 15, 21, 0.785);
     box-shadow: 1px 0px 10px 6px rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.bio {
+    color: rgb(136, 75, 75);
+    font-size: 50px;
+    margin-left: 510px;
+    margin-top: -240px;
+    font-style: italic;
+    text-shadow: 10px 7px 10px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 26px;
+    font-weight: bold; 
+    border-radius: 15%;
+    border: none;
+    background-color: rgb(16, 16, 16);
+    color: rgb(224, 217, 207);
+    text-shadow: rgb(89, 89, 89) 10px 4px 20px;
+    box-shadow: rgb(153, 148, 165) 1px 1px 10px 1px;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: whitesmoke 7px 5px 20px 1px;
+    font-size: large;
+    color: wheat;
+    text-shadow: wheat 1px 10px 3px;
+}
+
+.buttons {
+    display: flex; 
+	flex-direction: row;
+	justify-content: center;
+    margin-top: 280px;
+    gap: 125px;
+    margin-right: 300px;
+}
+
+@media screen and (max-width:600px) {
+    .pp {
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+    }  
+    .bio {
+        margin-top: 70px;
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .buttons {
+        display: flex; 
+	    flex-direction: column;
+        margin-top: 100px;
+        margin-left: 50px;
+        gap: 50px;
+    }
 }
