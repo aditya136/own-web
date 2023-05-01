@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(36, 35, 41);
+    background-color:  rgb(24, 22, 22);
 }
 
 .pp {
@@ -13,12 +13,12 @@ body{
 }
 
 .bio {
-    color: rgb(136, 75, 75);
+    color: rgba(186, 186, 186, 0.756);
     font-size: 50px;
     margin-left: 510px;
     margin-top: -240px;
     font-style: italic;
-    text-shadow: 10px 7px 10px;
+    text-shadow: rgba(82, 82, 82, 0.886) 10px 7px 10px;
 }
 
 button {
@@ -53,20 +53,21 @@ button:hover {
 
 @media screen and (max-width:600px) {
     .pp {
-        margin-left: 20px;
+        margin-left: 10px;
         width: 300px;
         height: 300px;
     }  
     .bio {
         margin-top: 70px;
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 40px;
     }
     .buttons {
         display: flex; 
 	    flex-direction: column;
         margin-top: 100px;
-        margin-left: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
         gap: 50px;
     }
 }
