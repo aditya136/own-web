@@ -37,11 +37,52 @@
         margin-left: 50px;
         font-size: 35px;
     }
+
+    .twitter-account, .mail-account, .option {
+        display: inline;
+    }
     .twitter-account {
-        width: 200px;
-        height: 100px;
-        background-color: rgb(20, 19, 19);
-        border: none;
+        width: 55px;
+        height: 50px;
+        margin-left: 680px;
+    }
+
+    .mail-account {
+        width: 55px;
+        height: 50px;
+        margin-left: 20px;
+
+    }
+    .option{
+        font-family: 'Courier New', Courier, monospace;
+        color: yellow;
+        text-shadow: rgba(219, 223, 16, 0.55) 2px 3px 10px;
+        margin-left: 15px;                         
+    }
+    .github-account {
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        border-radius: 45%;
+        border: solid 2px gainsboro;
+        margin-top: -13px;
+        margin-left: 20px;
+        position: fixed;
+    }
+    h4 {
+        margin-left: 1160px;
+        margin-top: 280px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(54, 54, 54);
+        text-shadow: 2px 2px #f0efef;
+        position: fixed;
+    }
+    h5 {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(225, 218, 218);
+        text-shadow: rgb(99, 71, 57) 0px 0px 10px ;
+        font-size: 30px;
+        margin-left: 100px;
     }
 </style>
 
@@ -51,10 +92,18 @@
 <body>
     <h1>I am able to chat in Twitter & Mail. <span class="second-line"> As I am just 14 so I don't have any </span> <span class="thered-line"> Facebook account or other stuffs like those.</span></h1>
     <h2>So you can send me messages there👇</h2>
-    <button>
-        <a href="https://twitter.com/Aditya1366">
-            <img class="twitter-account" src="twitter.png">
-        </a>  
-        </button> 
+    <a href="https://twitter.com/Aditya1366">
+        <img class="twitter-account" src="twitter.png">
+    </a>  
+    <h3 class="option">or</h3>
+    <a href="mailto:adityabanerjee102@gmail.com">
+        <img class="mail-account" src="gmail.png"/>
+    </a>
+    <h4>Also you can follow me on
+        <a href="https://github.com/aditya136">
+            <img class="github-account" src="github.png"/>
+        </a>
+    </h4> 
+    <h5>*I will try to reply as soon as possible</h5>
 </body>
 </html>
