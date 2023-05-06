@@ -13,24 +13,52 @@
     body {
         background-color: rgb(3, 3, 49);
     }
-    main {
-        display: flex;
-        align-items: center;
-	    justify-content: space-between;
-        gap: 20px;
-        width: 40px;
-        height: 40px;
-        background-color: brown;
+    .intro-boxes {
+        display: flex; 
+	    flex-direction: row;
+	    justify-content: center;
+        margin-top: 110px;
+        gap: 140px;
+        
+    }
+    .box1, .box2, .box3 {
+        background-color: rgb(241, 236, 236);
+        width: 350px;
+        height: 500px;
+        border-radius: 20px;
+        border: solid 10px rgb(13, 12, 12);
+        box-shadow: white 2px 2px 1px 10px ;
     }
 </style>
 
 
 
 <body>
-    <main>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-    </main>
+    <div class="intro-boxes">
+        <div class="box1">
+            <thead>
+                <h1>Basic info</h1>
+            </thead>
+            <tbody>
+                <h1>Hey! My name is Aditya Banerjee. I am a student of class 7. I live in Bangladesh. I am 14 years old. </h1>
+            </tbody>
+        </div>
+        <div class="box2">
+            <thead>
+                <h1>Interest</h1>
+            </thead>
+            <tbody>
+                <h1>Currently, I am learning Python, HTML and CSS. I am interested in Python AI & ML. I also want to learn C, C+, C#, ZS etc. Actually, I think there is no end of my learning. I will keep the learning until my dead. I am learning in every step, on everday. I want to go in the deep as far as possible in the programing World</h1>
+            </tbody>
+        </div>
+        <div class="box3">
+            <thead>
+                <h1>Hobbies</h1>
+            </thead>
+            <tbody>
+                <h1>I have lot of hobbies. Those are the 50% of that-  Programming, Singing, Gardening, Playing Music Instruments, Drawing, Farming, Video, Aduio & Photo Editing </h1>
+            </tbody>
+        </div>
+    </div>
 </body>
 </html>
