@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container {
+    color: black;
+    min-height: 100vh;
+    border: 12px solid #ecda074a;
+    background-color: #090909;
+}
+.container h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+form h2 {
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+    color: white;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3rem 0;
+}
+fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.2rem 0;
+}
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    color: #1b1b32;
+    border-radius: 4px;
+}
+fieldset h3, h4 {
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+    color: white;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+fieldset h4 {
+    font-size: 18px;
+    margin-left: 65px;
+    color: white;
+    font-family: fangsong;
+}
+input[type="file"] {
+    padding: 1px 2px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"] {
+    padding: 6px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-weight: bolder;
+    margin-left: 130px;
+    margin-right: auto;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+input[type='submit']:hover {
+    background-color: #090909;
+    color: white;
+}
+h5 {
+    font-size: 15px;
+    font-family: serif;
+    margin-top: 9px;
+    margin-bottom: auto;
+}
+@media only screen and (max-width: 600px) {
+    input[type='submit'] {
+        margin-left: 50px;
+    }
+    input[type='submit']:hover {
+        background-color: #090909;
+        color: white;
+    }
+}

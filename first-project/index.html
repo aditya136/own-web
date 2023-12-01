@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <meta name="description" content="A webpage for login in a social media I made it just for fun and for some new experience"/>
+        <title>Login form</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to our website</h1>
+            <form>
+                <h2>Please fill out this form to login</h2>
+                <fieldset>
+                    <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+                    <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+                    <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                    <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+                </fieldset>
+                <fieldset>
+                    <h3>Your account will be a</h3>
+                    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" required/> Personal Account</label>
+                    <h4>or</h4>
+                    <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" required/> Business Account</label>
+                </fieldset>
+                <fieldset>
+                    <label for="profile-picture">Upload a profile picture(optional): <input id="profile-picture" type="file" name="file" /></label>
+                </fieldset>
+                <h5>If you are done so just click on login button or press Enter</h5>
+                <input accesskey="Enter" type="submit" value="Log in"/>
+            </form>
+        </div>
+    </body>
+</html>

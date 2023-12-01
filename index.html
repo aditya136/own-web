@@ -6,14 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Banerjee</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link class="web-icon" rel="icon" type="image/x-icon" href="photos/web icon.jpg">
+
+
 </head>
-<body>
-    <img class="pp" src="338384601_1320777428781791_44913609926986495_n.jpg"/>
-    <h1 class="bio">Hi! I am Aditya Banerjee.</h1>
-    <div class="buttons">
-        <a href="intro.html"><button class="intro-button">Introduction</button></a>
-        <a href="projects.html" ><button class="project-button">Projects</button></a>
-        <a href="contact.html" ><button class="contact-button">Contact</button></a>
+
+<nav>
+    <label class="name-nav">Aditya</label>
+    <i class="fas fa-bars menu-icon" onclick="toggleNav()"></i>
+    <ul>
+        <li><a href="#home-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="home-section" class="webs">
+    <img class="pp" src="photos/profile-pic.jpg"/>
+    <h1 class="nameintro">Hi! I am Aditya Banerjee.</h1>
+    <h2 class="a-sentence">Progrmming is Love</h2>
+    <h2 class="second-line">programming is life</h2>
+</div>
+    
+<div id="about-section" class="webs"> 
+    <h1 class="intro-letter">Introduction</h1>
+    <div class="intro-boxes">
+    <div class="box1">
+        <thead>
+            <h1 class="bi">Basic info</h1>
+        </thead>
+        <tbody>
+            <h1 class="bie">Hey! My name is Aditya Banerjee. I am a student of 7th grade. I live in Bangladesh. I am 14 years old. </h1>
+        </tbody>
     </div>
+    <div class="box2">
+        <thead>
+            <h1 class="i">Interest</h1>
+        </thead>
+        <tbody>
+            <h1 class="ie">Currently, I am learning Python, HTML and CSS. I am interested in Python AI & ML. I also want to learn C, C+, C#, JS etc. I believe that there is no ending in learning. I will keep trying to learn as long as I live. I am learning in every step of my way, everyday. I want to dive into the programming world as deep as possilbe.</h1>
+        </tbody>
+    </div>
+    <div class="box3">
+        <thead>
+            <h1 class="h">Hobbies</h1>
+        </thead>
+        <tbody class="flex-hobbies">
+            <h1 class="he">I have lot of hobbies. Those are the 50% of that- <br> 1.Programming <br> 2.Singing<br> 3.Gardening<br> 4.Playing Music Instruments<br> 5.Drawing<br> 6.Video & Photo Editing 
+        </tbody>
+    </div>
+    </div>
+</div>
+
+
+<div id="project-section" class="webs">
+    <h1 class="project-word">Projects</h1>
+    <div class="project-boxes">
+        <div class="project-box-one">
+            <img class="first-project-image" src="photos/firstprojectpic.png"/>
+        </div>
+        <div class="project-box-two">
+            <img class="second-project-pic" src="photos/secondporjectpic.png"/>
+        </div>
+        <div class="project-box-three"></div>
+    </div>
+    <div class="about-projects">
+        <h1 class="about-frist-project">It's a responsive HTML & CSS form.</h1>
+        <h1 class="about-second-project">It's a copy of a phone's interface using<br> HTML & CSS but it's not responsive.</br></h1>
+        <h1 class="about-thred-project"></h1>
+    </div>
+    <div class="see-projects-buttons">
+        <a href="first-project/index.html"><button class="myButton-first">Click here!</button></a>
+        <a  href="second-project/main.html"><button class="myButton-second">Click here!</button></a>
+        <a><button class="myButton-third">Click here!</button></a>
+    </div>
+</div>
+
+
 </body>
 </html>
